@@ -1,0 +1,121 @@
+/* Estilos Globais */
+
+/************ Mini reset CSS *************/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Inconsolata, monospace;
+    font-weight: 400;
+}
+
+/*************** Links ***************/
+a:link {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:visited {
+    color: rgb(100, 100, 100);
+}
+
+a:hover {
+    color: red;
+}
+
+a.active {
+    color: red;
+    font-weight: 800;
+}
+
+/* dar padding e centrar */
+
+.center-pad-top {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/************* MAIN ***************/
+
+main {
+    width: 80%;
+    min-width: 800px;
+    max-width: 1240px;
+    margin: 50px auto;
+    padding: 2em;
+    border: 6px double rgb(97, 95, 95);
+    border-radius: 12px;
+
+    background-color: white;
+}
+
+main > * {
+    width: 600px;
+    margin: 20px auto;
+}
+
+/************* Bloco do Header *************/
+
+/* header {
+    text-align: center;
+} */
+
+header span {
+    display: block;
+    line-height: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header span.analog {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.4em;
+}
+
+/************* Bloco da Nav *************/
+
+nav ul {
+    border-top: 2px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+/************* Bloco da Section Contents*************/
+
+/* section.contents h1{
+    text-align: center;
+
+} */
+
+section.contents img{
+    filter: grayscale(0.9);
+
+}
+
+/* section.contents {
+    text-align: justify;
+
+} */
+
+/************* Bloco do Footer *************/
+
+footer {
+    border-top: 1px solid gray;
+    /* padding: 10px 0;
+    text-align: center; */
+
+}
