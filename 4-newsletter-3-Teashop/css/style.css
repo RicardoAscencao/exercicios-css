@@ -1,0 +1,78 @@
+/******** Estilos Globais ***********/
+
+/************ Mini reset CSS *************/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background-color: white;
+}
+main {
+    width: 650px;
+    margin: 20px auto;
+
+    background-color: rgba(231,231,229,255);
+    text-align: center;
+}
+
+
+
+footer {
+    width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    
+}
+footer li {
+
+    display: inline;
+    
+}
+header {
+
+    margin: auto;
+    padding: 20px;
+}
+
+section.teas > h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section.teas > h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section.tea-types {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+
+}
+
+a.btn {
+    display: inline-block;
+    padding: 0.6em 0.8em;
+    margin: 10px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    text-decoration: none;
+
+}
