@@ -25,24 +25,12 @@ main {
     text-align: center;
 }
 
-
-
-footer {
-    width: 650px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    text-align: center;
-    
-}
-footer li {
-
-    display: inline;
-    
-}
 header {
-
     margin: auto;
+    padding: 20px;
+}
+
+section.teas  {
     padding: 20px;
 }
 
@@ -50,21 +38,41 @@ section.teas > h1 {
     font-size: 2.5em;
     font-weight: normal;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
-section.teas > h2 {
-    font-size: 1.5em;
-    font-weight: normal;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 section.tea-types {
     display: flex;
     gap: 15px;
-    flex-direction: row;
 
+}
+
+article.tea {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+
+}
+
+article.tea > * {
+    flex: 1;
+    gap: 5px;
+
+}
+article.tea h2 {
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+
+article.tea h1 {
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
 }
 
 a.btn {
@@ -74,5 +82,37 @@ a.btn {
     background-color: rgb(19, 18, 18);
     color: white;
     text-decoration: none;
+    flex: 0;
 
+}
+
+section.promo {
+    border-top: 2px solid gray;
+    margin-top: 50px;
+    padding: 35px 0;
+}
+
+
+footer {
+    width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-top: 2px solid gray;
+    
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+
+    
+}
+footer ul li {
+
+    flex: 1;
+
+    
 }
