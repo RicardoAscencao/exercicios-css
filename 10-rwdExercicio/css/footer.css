@@ -1,0 +1,25 @@
+footer {
+    background-color: rgb(67, 67, 67);
+    color: grey;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 1em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width:720px) {
+    footer {
+        flex-direction: column;
+    }
+    
+    footer > * {
+        margin: 0.2em;
+    }
+}

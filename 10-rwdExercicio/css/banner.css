@@ -1,0 +1,31 @@
+section.banner {
+    
+    background-image: url(../images/landing-page-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height: 25vh;
+    margin: 20px;
+    padding: 1em;
+    border-radius: 12px;
+
+    background-color: rgb(173, 173, 172);
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+section.banner > * {
+    margin-top: 1em;
+}
+a.btnbanner{
+    color: white;
+    border-color: white;
+
+}

@@ -1,0 +1,28 @@
+/*  mini reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; /* default */
+    margin-top: 10vh;
+    margin-bottom: 13vh;
+}
+
+img, video, object {
+    max-width: 100%;
+}
+
+a.btn {
+    text-decoration: none;
+    padding: 0.4em;
+
+    border: 2px solid rgb(126, 217, 187);;
+    border-radius: 12px;
+    color: rgb(126, 217, 187);
+}
